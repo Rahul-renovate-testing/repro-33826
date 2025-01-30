@@ -1,2 +1,2 @@
 xmldoc=1.0.0
-chalk=2.0.0
+chalk=5.4.1
