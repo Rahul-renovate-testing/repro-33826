@@ -1,3 +1,11 @@
 {
-  "labels": ["renovate"]
+  "labels": ["renovate"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["haha.txt"],
+      "matchStrings": ["(?<depName>.*)=(?<currentValue>.*)"],
+      "datasourceTemplate": "npm"
+    }
+  ]
 }
